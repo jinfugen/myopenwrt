@@ -15,4 +15,4 @@
 # Clear the login password
 sed -i '/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF./ d' package/lean/default-settings/files/zzz-default-settings
 #关闭串口跑码
-sed -i 's/console=tty0//g'  target/linux/x86/image/Makefile
+#sed -i 's/console=tty0//g'  target/linux/x86/image/Makefile
